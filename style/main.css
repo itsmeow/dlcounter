@@ -1,0 +1,336 @@
+html {
+    font-family: 'Verdana', sans-serif;
+    background-color: #121212;
+    color: #e2e2e2;
+}
+
+body {
+    padding-top: 50px;
+    margin: 0;
+}
+
+html body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    max-width: 1024px;
+}
+
+footer {
+    background-color: #0c0c0c;
+    width: 100%;
+    float: left;
+    display: block;
+    color: white;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+
+footer div.footersection {
+    clear: left;
+}
+
+footer p {
+    padding-left: 20px;
+    font-size: 0.6rem;
+    float: left;
+}
+
+footer a.footerlink {
+    background-color: #202020;
+    display: block;
+    color: #e2e2e2;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    float: left;
+    border-top: 1px solid gray;
+    border-bottom: 1px dotted black;
+}
+
+.footer-image-box {
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+
+#topfooter {
+    border-right: 1px dotted black;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    text-align: center;
+    height: auto;
+    border: 2px solid #404040;
+}
+
+.stylebutton {
+    text-decoration: none;
+    background-color: #303030;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 6px #252525;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    width: 10rem;
+    height: 10%;
+    font-size: 1.3rem;
+}
+
+#installbutton {
+    position: absolute;
+    top: 45%;
+    left: calc(50% - 5rem);
+    right: 0;
+}
+
+.stylebutton:hover {
+    background-color: #353535;
+}
+
+.stylebutton:active {
+    transform: translateY(4px);
+    box-shadow: 0 4px #252525;
+}
+
+.bottom-text-nice {
+    width: 10rem;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+    background-color: #202020;
+    color: #707070;
+    text-decoration: none;
+    position: absolute;
+    top: 70%;
+    left: calc(50% - 5rem);
+}
+
+.list {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 12.65rem);
+}
+
+.element {
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px #323232 solid;
+    background-color: #000000;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+.element:hover {
+    box-shadow: inset 0 0 0 1000px rgba(200, 200, 200, .2);
+    transform: scale(1.12);
+}
+
+.element_downloads {
+    text-align: center;
+    font-family: 'Arial', sans;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.element img {
+    vertical-align: middle;
+    width: 11.25rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #121212;
+}
+
+.element:hover img {
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, .2);
+}
+
+.element p {
+    width: 11.25rem;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    margin-top: 0px;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Arial', sans;
+    font-weight: bold;
+}
+
+.element_text {
+    text-align: center;
+    font-family: 'Arial', sans;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    margin-top: 0px;
+}
+
+.element_subtext_role {
+    text-align: center;
+    font-family: 'Arial', sans;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+.element_subtext_info {
+    text-align: center;
+    font-family: 'Arial', sans;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-size: 0.7rem;
+}
+
+@media (max-width:450px) {
+    .list {
+        grid-template-columns: repeat(auto-fit, 10rem);
+    }
+    .element img {
+        width: 8.65rem;
+    }
+    .element p {
+        width: 8.65rem;
+        font-size: 0.7rem;
+    }
+}
+
+a.nodecor {
+    text-decoration: none;
+    color: #e2e2e2;
+}
+
+.element a {
+    text-decoration: none;
+    color: #e2e2e2;
+}
+
+.text_box {
+    text-align: center;
+    font-family: 'Arial', sans;
+    font-size: 0.8rem;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px #323232 solid;
+    background-color: #202020;
+}
+
+.cfbadge {
+    max-width: 90%;
+}
+
+ul.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 20;
+}
+
+li.header a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 33.33%;
+    text-decoration: none;
+    -webkit-transition-duration: 0.45s;
+    transition-duration: 0.45s;
+}
+
+li.header a.active {
+    background-color: #0c0c0c;
+}
+
+li.header a.active:hover {
+    background-color: #101010;
+}
+
+li.header a:hover {
+    background-color: #303030;
+}
+
+.headlogo {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sitebutton {
+    display: block;
+    width: 8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: auto;
+    border: 1px solid #8c8c8c;
+    font-size: 1rem;
+    margin-top: 2px;
+    background-color: black;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+.sitebutton:hover {
+    border: 1px solid #ff7300;
+}
+
+@media screen and (max-width: 800px) {
+    .headlogo {
+        display: none;
+    }
+    .footer-image-box {
+        display: none;
+    }
+    li.header a {
+        font-size: 0.8rem;
+    }
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(rgba(130, 130, 130, 0.75), rgba(130, 130, 130, 0.75));
+}
+
+.highlightsection {
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+
+.highlightsection:hover {
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, .01);
+}

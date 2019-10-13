@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>its_meow download counter</title>
+    <meta charset="utf-8">
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Minecraft,its_meow,mods,Better Animals Plus,ClaimIt,BA+,developer,itsmeow,forge">
+    <meta name="author" content="its_meow">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="odometer-theme-default.css" />
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="odometer.js"></script>
+</head>
+
+<body>
+    <h1 id="main-header">Total Downloads</h1>
+    <span align="center" class="odometer" id="main-counter">
+        0
+    </span>
+    <span id="time">
+        Estimated 10m 0s until next update
+    </span>
+    <style>
+        #main-header {
+            text-align: center;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -10%);
+        }
+        
+        #main-counter {
+            text-align: center;
+            font-size: 5rem;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -40%);
+        }
+        
+        #time {
+            text-align: center;
+            font-size: 1.5rem;
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -80%);
+        }
+    </style>
+    <script src="downloadupdate.js"></script>
+    <footer style="bottom:0;">
+        <div class="footer-image-box">
+            <a href="index.html"><img style="width:100%;height:100%;" src="modslogo.png"></a>
+        </div>
+        <div class="footersection">
+            <p style="color:#777777;">by its_meow - © 2019 - All Rights Reserved - Thanks for visiting!</p>
+        </div>
+    </footer>
+</body>
+
+</html>
