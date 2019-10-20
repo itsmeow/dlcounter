@@ -19,7 +19,7 @@ function updateAllProjectDownloads(xmlHttpResponse) {
         var targetPage = projects[listIndex].toString();
         $.get(targetPage, result(listIndex, false));
     }
-    setInterval(updateAProjectDownload, 10000);
+    setInterval(updateAProjectDownload, 20000);
 }
 
 function resetTime() {
